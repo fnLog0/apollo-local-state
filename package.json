@@ -1,0 +1,40 @@
+{
+  "name": "apollo-local-state",
+  "private": true,
+  "description": "crud system",
+  "author": {
+    "name": "Nasim Akhtar"
+  },
+  "version": "0.0.1",
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.1.11",
+    "apollo-client": "^2.2.7",
+    "apollo-link-state": "^0.4.1",
+    "graphql": "^14.0.2",
+    "graphql-tag": "^2.5.0",
+    "lodash": "^4.17.10",
+    "prop-types": "15.6.2",
+    "react": "16.5.1",
+    "react-apollo": "2.1.11",
+    "react-csv": "^1.0.15-RC2",
+    "react-dom": "16.5.1"
+  },
+  "devDependencies": {
+    "react-scripts": "1.1.5",
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.7.0",
+    "prettier-eslint-cli": "^4.7.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint": "eslint --fix --ext .jsx,.js src/*.js src/**/*.js"
+  }
+}
