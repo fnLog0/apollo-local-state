@@ -1,6 +1,6 @@
 # Apollo Local State Mangement
 
-crud system using apollo graphql local state management
+Crud System
 
 - Site is still in progress, happy for pull requests and issues if you find any.
 
